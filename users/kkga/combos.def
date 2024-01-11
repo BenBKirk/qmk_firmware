@@ -1,0 +1,28 @@
+// TODO try combos for mods instead of homerow mods
+
+// left-top
+// COMB(LT3,   KC_TILD,   KC_Q, KC_W)
+
+// left-home
+// COMB(LH3,   KC_ESC,    HOME_A, HOME_S)
+COMB(LH2,   KC_ESC,    HOME_S, HOME_D)
+
+// left-bottom
+COMB(LB1,   KC_TAB,    KC_C, KC_V)
+COMB(LB2,   S(KC_TAB), KC_X, KC_C)
+
+// right-top
+COMB(RT1,   KC_COLN,   KC_U, KC_I)
+SUBS(RT12,  ":=",      KC_U, KC_I, KC_O)
+COMB(RT2,   KC_UNDS,   KC_I, KC_O)
+
+// right-home
+COMB(RH3,   KC_DQUO,   HOME_L, KC_QUOT)
+COMB(RH2,   KC_BSPC,   HOME_K, HOME_L)
+
+// right-bottom
+COMB(RB1,   KC_ENT,    HOME_M, KC_COMM)
+COMB(RB2,   KC_PIPE,   KC_COMM, KC_DOT)
+COMB(RB3,   KC_BSLS,   KC_DOT, KC_SLSH)
+
+// vim:ft=c

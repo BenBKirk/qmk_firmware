@@ -1,0 +1,26 @@
+#pragma once
+
+// #define ONESHOT_TAP_TOGGLE 3
+// #define TAPPING_TERM 200
+// #define PERMISSIVE_HOLD
+// #define IGNORE_MOD_TAP_INTERRUPT
+// #define EE_HANDS
+
+// Make it easier to work with tap hold
+//#define IGNORE_MOD_TAP_INTERRUPT
+#define TAPPING_FORCE_HOLD_PER_KEY
+#define HOLD_ON_OTHER_KEY_PRESS_PER_KEY
+#define ONESHOT_TAP_TOGGLE 3
+#define ONESHOT_TIMEOUT 2000
+#define TAPPING_TOGGLE 1
+#define TAPPING_TERM 175
+#define MASTER_RIGHT
+
+#define COMBO_TERM 50
+#define EXTRA_SHORT_COMBOS
+#define COMBO_STRICT_TIMER
+
+#define COMBO_VARIABLE_LEN
+
+#define NO_ACTION_MACRO
+#define NO_ACTION_FUNCTION
